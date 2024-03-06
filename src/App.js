@@ -13,7 +13,7 @@ import {
   Progress,
 } from "reactstrap";
 
-const URL = "http://localhost:5000/";
+const URL = "https://video-downloader-backend.onrender.com/";
 const socket = io(URL, { transports: ['websocket'] });
 
 export default class App extends Component {
